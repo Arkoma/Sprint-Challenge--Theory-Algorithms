@@ -74,9 +74,16 @@ both `antelope` and `antelopes`.)
 
   moves the cursor to line 12, column 45.
 
+  ```javascript
+  /\e\[\d+;\d+/
+  ```
       ESC[1m
 
   changes the font to bold.
+
+```javascript
+/\e\[1(?=\D)/
+```
 
   * Come up with regexes for the two above sequences. The one to set the
     cursor position should accept any digits for the row and column. The
