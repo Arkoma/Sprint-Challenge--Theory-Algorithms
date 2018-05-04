@@ -8,16 +8,17 @@ both `antelope` and `antelopes`.)
 * Single regex that matches either of these:
 
 		```javascript
-		/(antelopes?)\s(rocks?)\s(out)/g```
-
-    antelope rocks out
+		/(antelopes?)\s(rocks?)\s(out)/g
+		```
+		antelope rocks out
     
     antelopes rock out
 
 * Regex that matches either of:
 
 		```javascript
-		/[gm]oat/g```
+		/[gm]oat/g
+		```
 		
     goat
     
@@ -32,7 +33,8 @@ both `antelope` and `antelopes`.)
   is correct (e.g 3333-33-33 can match).
 
 	```javascript
-	/\d{4}-\d{1,2}-\d{1,2}/g```
+	/\d{4}-\d{1,2}-\d{1,2}/g
+	```
 	
   2000-10-12
   
