@@ -81,9 +81,9 @@ both `antelope` and `antelopes`.)
 
   changes the font to bold.
 
-```javascript
-/\e\[1m/
-```
+  ```javascript
+  /\e\[1m/
+  ```
 
   * Come up with regexes for the two above sequences. The one to set the
     cursor position should accept any digits for the row and column. The
@@ -93,6 +93,8 @@ both `antelope` and `antelopes`.)
   * Draw a state machine diagram for a VT-100 that can consume regular
     character sequences as well as the two above ESC sequences.
 
+  ![VT100 State Machine](https://github.com/Arkoma/Sprint-Challenge--Theory-Algorithms/blob/master/theory/VT100%20state%20machine.png)
+  
 > If you're curious, [here are all the VT-100 escape
 > sequences](http://ascii-table.com/ansi-escape-sequences-vt-100.php).
 > More common these days is a superset of VT-100 called [ANSI escape
