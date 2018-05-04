@@ -51,13 +51,13 @@ both `antelope` and `antelopes`.)
   Remember the ε transition can be used to move between states without
   consuming input. 
 
-	![ab*c+d?[ef] state machine](https://github.com/Arkoma/Sprint-Challenge--Theory-Algorithms/blob/master/theory/lion-state-machine.png)
+	![ab*c+d?[ef] state machine](https://github.com/Arkoma/Sprint-Challenge--Theory-Algorithms/blob/master/theory/regex-state-machine.png)
 
 * A lion can be sleeping, eating, hunting, or preening. Draw a state
   machine diagram for the lion and label the transition events that
   cause state transitions.
 
-	![lion state machine](https://github.com/Arkoma/Sprint-Challenge--Theory-Algorithms/blob/master/theory/regex-state-machine.png)
+	![lion state machine](https://github.com/Arkoma/Sprint-Challenge--Theory-Algorithms/blob/master/theory/lion-state-machine.png)
 
 * The VT-100 terminal (console) outputs text to the screen as it
   receives it over the wire. One exception is that when it receives an
