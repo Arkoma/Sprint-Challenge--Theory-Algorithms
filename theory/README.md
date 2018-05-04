@@ -15,6 +15,8 @@ both `antelope` and `antelopes`.)
 
 * Regex that matches either of:
 
+		/[gm]oat/g
+		
     goat
     
     moat
