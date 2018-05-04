@@ -7,7 +7,8 @@ both `antelope` and `antelopes`.)
 
 * Single regex that matches either of these:
 
-		/(antelopes?)\s(rocks?)\s(out)/g
+		```javascript
+		/(antelopes?)\s(rocks?)\s(out)/g```
 
     antelope rocks out
     
@@ -15,7 +16,8 @@ both `antelope` and `antelopes`.)
 
 * Regex that matches either of:
 
-		/[gm]oat/g
+		```javascript
+		/[gm]oat/g```
 		
     goat
     
@@ -29,7 +31,8 @@ both `antelope` and `antelopes`.)
   month and day can each be 1-2 digits). This does not need to verify the date
   is correct (e.g 3333-33-33 can match).
 
-	/\d{4}-\d{1,2}-\d{1,2}/g
+	```javascript
+	/\d{4}-\d{1,2}-\d{1,2}/g```
 	
   2000-10-12
   
